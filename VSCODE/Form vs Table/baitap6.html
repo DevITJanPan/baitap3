@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web thương mại điện tử</title>
+</head>
+<body>
+    <h1>Trang web thương mại điện tử</h1>
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">sản Phẩm</a>
+        <a href="#">Giỏ hàng</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+    <table border="1">
+        <tr>
+            <th>Ảnh</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Mô tả</th>
+        </tr>
+        <tr>
+            <td rowspan="3"><img src="./anh1/banana.webp" alt="banana" height="100" width="100"></td>
+            <td><a href="#">Sản phẩm 1</a> </td>
+            <td rowspan="3">100,100đ</td>
+            <td rowspan="3">Mô tả sản phẩm 1</td>
+        </tr>
+        <tr>
+            <td>size:M</td>
+        </tr>
+        <tr>
+            <td>color:N</td>
+        </tr>
+        <tr>
+            <td><img src="./anh1/broccoli.jpg" alt="broccoli" height="100" width="100"></td>
+            <td><a href="#">Sản phẩm 2</a></td>
+            <td>200,000đ</td>
+            <td>Mô tả sản phẩm 2</td>
+        </tr>
+        <tr>
+            <td colspan="3"><img src="./anh1/Gumme Bears.jpg" alt="Gumme Bears" height="100" width="100"></td>
+            <td>Mô tả sản phẩm 3</td>
+        </tr>
+
+    </table>
+    <h2>Liên hệ</h2>
+    <form action="HTML" method="post">
+        <label for="name">Họ và tên:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="in">Nội dung:</label>
+       <textarea name="in" id="in" cols="20" rows="3"></textarea>
+    </form>
+    <h2>Thanh Toán</h2>
+    <form action="#" method="post">
+        <label for="user">Họ và tên:</label>
+        <input type="text" name="user" id="user"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="card">Thẻ</label>
+        <input type="text" name="card" id="card"><br>
+        <label for="date">Ngày hết hạn:</label>
+        <input type="text" name="date" id="date"><br>
+        <input type="button" value="Thanh toán">
+    </form>
+</body>
+<p>&#169;Trang web thương mại điện tử</p>
+</html>
